@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript DOM Manipulation</title>
+  <style>
+    .highlight {
+      color: white;
+      background-color: teal;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to DOM Manipulation</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <p id="text-content">Click the buttons below to see DOM magic in action!</p>
+      <button onclick="changeText()">Change Text</button>
+      <button onclick="toggleStyle()">Toggle Style</button>
+      <button onclick="toggleElement()">Add/Remove Element</button>
+    </section>
+    <div id="dynamic-container"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DOM Demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
